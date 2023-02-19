@@ -22,7 +22,7 @@ const App = () => {
       <div id="expense-list">
       </div>
       <div id="total-expense">
-        Total Expense: 400
+        Total Expense: {setExpense}
       </div>
     </div>
   )
