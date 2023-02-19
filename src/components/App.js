@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/App.css';
 
-const App = () => {
+
   const App=()=>{
     const [expense,setExpense]=useState(0);
     const handle=()=>{
@@ -22,7 +22,7 @@ const App = () => {
       <div id="expense-list">
       </div>
       <div id="total-expense">
-        Total Expense: {setExpense}
+        Total Expense:400
       </div>
     </div>
   )
